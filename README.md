@@ -7,6 +7,7 @@
 - Navigate into ```SignLanguage > Model Trainer``` subdirectory
 - Open ```Model_maker.ipynb``` in your IDE
 - Click "Run All"
+
   !! Please note: It may take a while to run all the cells for the first time. If you do not already have a Python3 environment, VSCode can set it up for you. This will also take time. Please be patient, thank you. :]
 
 ## What our program should do
