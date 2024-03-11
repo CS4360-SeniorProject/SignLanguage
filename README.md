@@ -1,15 +1,22 @@
+# Sign Language Recognizer
+We're designing an application that can recognize sign language gestures from a user, and output text of the word/letter detected by the application.
+
+## Table of Contents
++ [What you need](#what-you-need)
++ [Initial run instructions](#initial-run-instructions)
++ [Run with predictions](#run-with-predictions)
+
 ## What you need
 - An IDE that can run Jupyter Notepook ipynb files (We reccomend VSCode).
 - A Python 3.9 environment
 - pip installed
   
-
 ## Initial run instructions
 - Clone the repository to your local machine ```git clone https://github.com/CS4360-SeniorProject/SignLanguage.git```
 - Navigate into ```SignLanguage > Model Trainer``` subdirectory
 - Open ```Model_maker.ipynb``` with your IDE
 - Run all the Cell Blocks in Section 1-3 in order.
-- - If using VSCode, you can run individual cells by pressing the "play" button on the left of the cell. It will pop up when hovering over the desired cell.
+- If using VSCode, you can run individual cells by pressing the "play" button on the left of the cell. It will pop up when hovering over the desired cell.
 
     * This is to test if all the mediapipe libraries are being imported to your computer, and landmark drawings are being plotted on your hands.
       
