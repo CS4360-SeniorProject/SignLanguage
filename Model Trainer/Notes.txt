@@ -1,0 +1,27 @@
+Action should be in the shape of   (Frame, keypoints) (30, 258)
+
+Pose has 132 indidividual key features
+Hands has 21 in each hand. with 3 properties (x,y,z) making it 126
+
+Pose + Hands = 258
+
+
+Once all the data has been collected the shape will become (total number of sequences, Frame, Keypoints)
+ (120, 30, 258) 
+
+ This has 4 items of 30 sequences with 30 npy files.
+
+ 30* 4 = 120
+ 30 Frames
+ 258 keypoints
+
+
+
+ This line will get rid of thousands of lines of Log that gets printed. It increases the lines in github as well.
+
+ alphabet_model.predict(np.expand_dims(sequence_alphabet, axis=0), verbose=0)[0]
+
+ * verbose
+
+
+
