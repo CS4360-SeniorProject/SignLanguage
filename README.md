@@ -8,7 +8,7 @@ We're designing an application that can recognize sign language gestures from a 
 
 ## What you need
 - An IDE that can run Jupyter Notepook ipynb files (We reccomend VSCode).
-- A Python 3.9 environment
+- A Python 3.9.5 environment
 - pip installed
   
 ## Initial run instructions
